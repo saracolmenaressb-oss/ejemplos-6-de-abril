@@ -1,0 +1,7 @@
+.caja{
+    animation: change-color 2s ease;
+}
+@keyframes change-color{
+    from{background: violet;}
+    to{background: deeppink}
+}

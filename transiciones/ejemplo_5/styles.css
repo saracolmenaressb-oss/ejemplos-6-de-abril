@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+    
+div#body{
+    margin:auto;
+    margin-top:20px;
+    width:400px;
+    height: 150px;
+    background-color:red;
+    transition: width 1s cubic-bezier(0.0,1,1);
+}
+    
+div#body:hover {
+    width:960px;
+}

@@ -1,0 +1,16 @@
+.caja{
+    animation: change-color 2s ease;
+    width: 80px;
+    height: 80px;
+    background: plum;
+    animation: mover 3s linear
+    ,color 3s linear infinite;
+}
+@keyframes mover{
+    from{transform: translateY(0);}
+    to{transform: translateX(200px);}
+}
+@keyframes color{
+    from{background: darkkhaki;}
+    to{background: green;}
+}

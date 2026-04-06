@@ -1,0 +1,10 @@
+div{
+    width: 400px;
+    background: plum;
+    transition: width 9s ease-out,
+    background 0.5s ease;
+}
+div:hover{
+    width: 800px;
+    background: darkkhaki;
+}
